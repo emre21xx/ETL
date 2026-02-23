@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transportlogistik Premium</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <div class="logo">Transportlogistik</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Leistungen</a>
+      <a href="#process">Prozess</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Logistik neu definiert</h1>
+    <p>Schnell. Sicher. Transparent. Europaweit.</p>
+    <div class="hero-buttons">
+      <button class="btn-primary">Auftrag erstellen</button>
+      <button class="btn-glass">Sendung verfolgen</button>
+    </div>
+  </div>
+</section>
+
+<section class="tracking reveal">
+  <div class="container">
+    <h2>Echtzeit Sendungsverfolgung</h2>
+    <div class="tracking-box">
+      <input type="text" placeholder="Sendungsnummer eingeben">
+      <button>Verfolgen</button>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services reveal">
+  <div class="container">
+    <h2>Unsere Leistungen</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Express Transporte</h3>
+        <p>Direkte Lieferung ohne Umladung.</p>
+      </div>
+      <div class="card">
+        <h3>Direktfahrten</h3>
+        <p>Schnellste Zustellung europaweit.</p>
+      </div>
+      <div class="card">
+        <h3>Termintreue</h3>
+        <p>Garantierte pünktliche Lieferung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="process reveal">
+  <div class="container">
+    <h2>Unser Prozess</h2>
+    <div class="timeline">
+      <div class="step">1. Auftrag</div>
+      <div class="step">2. Abholung</div>
+      <div class="step">3. Transport</div>
+      <div class="step">4. Lieferung</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <div class="container">
+    <h2>Kontakt</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="E-Mail">
+      <textarea placeholder="Nachricht"></textarea>
+      <button class="btn-primary">Absenden</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Transportlogistik – Premium Version</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
